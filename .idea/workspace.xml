@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Ajout méthode supprimer_salle" />
+    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Ajout méthode recuperer_salles">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776640209049</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Ajout méthode rechercher_salle">
+      <option name="closed" value="true" />
+      <created>1776640378754</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1776640378754</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Ajout méthode recuperer_salles">
+      <option name="closed" value="true" />
+      <created>1776640653512</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1776640653512</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,6 +250,8 @@
     <MESSAGE value="Ajout méthode ajouter_salle avec validation" />
     <MESSAGE value="Ajout méthode modifier_salle avec validation" />
     <MESSAGE value="Ajout méthode supprimer_salle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout méthode supprimer_salle" />
+    <MESSAGE value="Ajout méthode rechercher_salle" />
+    <MESSAGE value="Ajout méthode recuperer_salles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout méthode recuperer_salles" />
   </component>
 </project>

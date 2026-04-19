@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Ajout connexion MySQL dans DataSalle">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/dao_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/dao_salle.py" afterDir="false" />
+    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Ajout fonction insert_salle et test insertion">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776634382285</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ajout fonction insert_salle et test insertion">
+      <option name="closed" value="true" />
+      <created>1776635182313</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776635182313</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,16 +159,7 @@
     <MESSAGE value="Création de la classe Salle dans la couche modèle" />
     <MESSAGE value="Ajout configuration base de données dans config.json" />
     <MESSAGE value="Ajout connexion MySQL dans DataSalle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout connexion MySQL dans DataSalle" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Ajout fonction insert_salle et test insertion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout fonction insert_salle et test insertion" />
   </component>
 </project>

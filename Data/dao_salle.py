@@ -17,3 +17,15 @@ class DataSalle:
 
             return connexion
 
+    def insert_salle(self, salle):
+            connexion = self.get_connection()
+            cursor = connexion.cursor()
+
+            cursor.execute ( "INSERT INTO salle VALUES (%s, %s, %s, %s)",
+                          (salle.code, salle.libelle, salle.type, salle.capacite)
+            )
+            connexion.commit()
+            print("Salle ajoutée")
+            connexion.close()
+
+

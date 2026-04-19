@@ -42,5 +42,26 @@ class DataSalle:
             cursor.close()
             connexion.close()
 
+    def update_salle(self, salle):
+
+            connexion = self.get_connection()
+            cursor = connexion.cursor()
+
+            sql = """
+            UPDATE salle
+            SET libelle=%s, type=%s, capacite=%s
+            WHERE code=%s
+            """
+
+            valeurs = (salle.libelle, salle.type, salle.capacite, salle.code)
+
+            cursor.execute(sql, valeurs)
+            connexion.commit()
+
+            print("Salle modifiée")
+
+            cursor.close()
+            connexion.close()
+
 
 

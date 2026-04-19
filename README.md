@@ -1,4 +1,4 @@
-# Gestion des voitures avec Python et MySQL
+# Application de gestion des salles
 
 ## Informations
 
@@ -7,21 +7,25 @@ Numéro étudiant : 300155109
 
 ## Description
 
-Ce projet consiste à créer une application en Python qui permet de gérer une base de données MySQL contenant des voitures. On peut ajouter, supprimer, modifier et afficher des voitures.
+Ce projet consiste à développer une application en Python permettant de gérer des salles à l’aide d’une base de données MySQL et d’une interface graphique.
 
-Le programme est connecté à MySQL à l’aide d’un fichier JSON pour les informations de connexion. Les données sont stockées dans une table appelée `voiture`.
+L’application permet d’ajouter, modifier, supprimer et rechercher des salles. Les données sont organisées en utilisant une architecture en couches (Data, Models, Services, Views) pour mieux structurer le projet.
+
+Une interface graphique a été réalisée avec customTkinter afin de rendre l’application plus facile à utiliser.
 
 ## Fonctionnalités
 
-* Ajouter une voiture
-* Supprimer une voiture
-* Modifier une voiture
-* Afficher la liste des voitures
+* Ajouter une salle
+* Modifier une salle
+* Supprimer une salle
+* Rechercher une salle
+* Afficher la liste des salles
 
 ## Technologies utilisées
 
 * Python
 * MySQL
+* customTkinter
 * GitHub
 
 ---

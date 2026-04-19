@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Installation des dépendances MySQL et customTkinter">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/dao_salle.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/Data/dao_salle.pyi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/salle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/service_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/service_salle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/view_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/view_salle.py" afterDir="false" />
-    </list>
+    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Création de la classe Salle dans la couche modèle" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776631088953</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Création de la classe Salle dans la couche modèle">
+      <option name="closed" value="true" />
+      <created>1776632399460</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776632399460</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -129,6 +129,7 @@
     <MESSAGE value="Correction README avec bonne description" />
     <MESSAGE value="Création de l'architecture en couches du projet" />
     <MESSAGE value="Installation des dépendances MySQL et customTkinter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Installation des dépendances MySQL et customTkinter" />
+    <MESSAGE value="Création de la classe Salle dans la couche modèle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création de la classe Salle dans la couche modèle" />
   </component>
 </project>

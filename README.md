@@ -5,7 +5,7 @@
 Nom :  Wendyam Alexia Kabore
 Numéro étudiant : 300155109
 
-## Description
+# Description
 
 Ce projet consiste à développer une application en Python permettant de gérer des salles à l’aide d’une base de données MySQL et d’une interface graphique.
 
@@ -13,7 +13,7 @@ L’application permet d’ajouter, modifier, supprimer et rechercher des salles
 
 Une interface graphique a été réalisée avec customTkinter afin de rendre l’application plus facile à utiliser.
 
-## Fonctionnalités
+# Fonctionnalités
 
 * Ajouter une salle
 * Modifier une salle

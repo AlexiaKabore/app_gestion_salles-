@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Ajout fonction insert_salle et test insertion">
+    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="ajout de salle">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/dao_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/dao_salle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776635182313</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ajout de salle">
+      <option name="closed" value="true" />
+      <created>1776635791066</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1776635791066</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,6 +170,7 @@
     <MESSAGE value="Ajout configuration base de données dans config.json" />
     <MESSAGE value="Ajout connexion MySQL dans DataSalle" />
     <MESSAGE value="Ajout fonction insert_salle et test insertion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout fonction insert_salle et test insertion" />
+    <MESSAGE value="ajout de salle" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de salle" />
   </component>
 </project>

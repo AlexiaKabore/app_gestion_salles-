@@ -29,3 +29,18 @@ class DataSalle:
             connexion.close()
 
 
+    def delete_salle(self, code):
+            connexion = self.get_connection()
+            cursor = connexion.cursor()
+
+            sql = "DELETE FROM salle WHERE code = %s"
+            cursor.execute(sql, (code,))
+
+            connexion.commit()
+            print("Salle supprimée")
+
+            cursor.close()
+            connexion.close()
+
+
+

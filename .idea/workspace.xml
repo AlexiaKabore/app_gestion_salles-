@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Ajout fonction delete_salle">
+    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Ajout fonction get_salle et test recherche">
       <change beforePath="$PROJECT_DIR$/Data/dao_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/dao_salle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -165,7 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776637600169</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Ajout fonction update_salle">
+      <option name="closed" value="true" />
+      <created>1776638007192</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1776638007192</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Ajout fonction get_salle et test recherche">
+      <option name="closed" value="true" />
+      <created>1776638148093</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1776638148093</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,6 +195,8 @@
     <MESSAGE value="Ajout fonction insert_salle et test insertion" />
     <MESSAGE value="ajout de salle" />
     <MESSAGE value="Ajout fonction delete_salle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout fonction delete_salle" />
+    <MESSAGE value="Ajout fonction update_salle" />
+    <MESSAGE value="Ajout fonction get_salle et test recherche" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout fonction get_salle et test recherche" />
   </component>
 </project>

@@ -82,5 +82,25 @@ class DataSalle:
                 return None
 
 
+    def get_salles(self):
+
+            connexion = self.get_connection()
+            cursor = connexion.cursor()
+
+            cursor.execute("SELECT * FROM salle")
+            resultats = cursor.fetchall()
+
+            salles = []
+
+            for row in resultats:
+                s = Salle(row[0], row[1], row[2], row[3])
+                salles.append(s)
+
+            cursor.close()
+            connexion.close()
+
+            return salles
+
+
 
 

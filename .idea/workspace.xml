@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="initialisation du projet README">
+    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Correction README avec bonne description">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,11 +83,20 @@
       <option name="project" value="LOCAL" />
       <updated>1776629104711</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Correction README avec bonne description">
+      <option name="closed" value="true" />
+      <created>1776629408517</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776629408517</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialisation du projet README" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialisation du projet README" />
+    <MESSAGE value="Correction README avec bonne description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction README avec bonne description" />
   </component>
 </project>

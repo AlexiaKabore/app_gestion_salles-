@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Ajout méthode recuperer_salles">
+    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment=". Tests de la couche Service dans main.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/view_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/view_salle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +53,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.main.executor": "Run",
     "Python.service_salle.executor": "Run",
+    "Python.view_salle.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -230,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776640653512</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=". Tests de la couche Service dans main.py">
+      <option name="closed" value="true" />
+      <created>1776641189715</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1776641189715</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -252,6 +261,7 @@
     <MESSAGE value="Ajout méthode supprimer_salle" />
     <MESSAGE value="Ajout méthode rechercher_salle" />
     <MESSAGE value="Ajout méthode recuperer_salles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout méthode recuperer_salles" />
+    <MESSAGE value=". Tests de la couche Service dans main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value=". Tests de la couche Service dans main.py" />
   </component>
 </project>

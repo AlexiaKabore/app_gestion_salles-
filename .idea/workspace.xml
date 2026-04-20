@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Ajout import ttk pour affichage liste">
+    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Ajout méthode lister_salles pour affichage dynamique">
       <change beforePath="$PROJECT_DIR$/views/view_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/view_salle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -278,11 +278,26 @@
       <option name="project" value="LOCAL" />
       <updated>1776654487369</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Ajout du tableau Treeview pour afficher les salles">
+      <option name="closed" value="true" />
+      <created>1776654753869</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1776654753869</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Ajout méthode lister_salles pour affichage dynamique">
+      <option name="closed" value="true" />
+      <created>1776654899375</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1776654899375</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initialisation du projet README" />
     <MESSAGE value="Correction README avec bonne description" />
     <MESSAGE value="Création de l'architecture en couches du projet" />
     <MESSAGE value="Installation des dépendances MySQL et customTkinter" />
@@ -306,6 +321,8 @@
     <MESSAGE value="Ajout fonction ajouter_salle avec liaison bouton" />
     <MESSAGE value="Ajout interface graphique et lancement application" />
     <MESSAGE value="Ajout import ttk pour affichage liste" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout import ttk pour affichage liste" />
+    <MESSAGE value="Ajout du tableau Treeview pour afficher les salles" />
+    <MESSAGE value="Ajout méthode lister_salles pour affichage dynamique" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout méthode lister_salles pour affichage dynamique" />
   </component>
 </project>

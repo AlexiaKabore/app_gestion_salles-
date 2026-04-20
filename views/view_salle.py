@@ -71,12 +71,14 @@ class ViewSalle(ctk.CTk):
         self.treeList.column("capacite", width=100)
 
         self.treeList.pack(expand=True, fill="both", padx=10, pady=10)
+        self.lister_salles()
+
     def ajouter_salle(self):
         code = self.entry_code.get()
         libelle = self.entry_libelle.get()
         type_s = self.entry_type.get()
         capacite = int(self.entry_cap.get())
-
+        self.lister_salles()
         from Models.salle import Salle
         salle = Salle(code, libelle, type_s, capacite)
 
@@ -88,8 +90,8 @@ class ViewSalle(ctk.CTk):
         libelle = self.entry_libelle.get()
         type_s = self.entry_type.get()
         capacite = int(self.entry_cap.get())
-
-        from models.salle import Salle
+        self.lister_salles()
+        from Models.salle import Salle
         salle = Salle(code, libelle, type_s, capacite)
 
         resultat, message = self.service_salle.modifier_salle(salle)
@@ -98,6 +100,7 @@ class ViewSalle(ctk.CTk):
     def supprimer_salle(self):
         code = self.entry_code.get()
         self.service_salle.supprimer_salle(code)
+        self.lister_salles()
         print("Salle supprimée")
 
     def rechercher_salle(self):

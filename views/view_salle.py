@@ -48,7 +48,7 @@ class ViewSalle(ctk.CTk):
         self.btn_rechercher = ctk.CTkButton(self.cadreActions, text="Rechercher")
         self.btn_rechercher.grid(row=0, column=3, padx=5)
 
-        # Cadre Liste de salles
+        # Cadre Liste des salles
         self.cadreList = ctk.CTkFrame(self, corner_radius=10, width=400)
         self.cadreList.pack(pady=10, padx=10)
 

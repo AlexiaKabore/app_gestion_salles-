@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment=". Tests de la couche Service dans main.py">
+    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Ajout du cadre informations salle (labels et champs)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/view_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/view_salle.py" afterDir="false" />
     </list>
@@ -239,7 +239,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776641189715</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Création de la fenêtre principale ViewSalle">
+      <option name="closed" value="true" />
+      <created>1776647270081</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1776647270081</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Ajout du cadre informations salle (labels et champs)">
+      <option name="closed" value="true" />
+      <created>1776647392780</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1776647392780</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -262,6 +278,8 @@
     <MESSAGE value="Ajout méthode rechercher_salle" />
     <MESSAGE value="Ajout méthode recuperer_salles" />
     <MESSAGE value=". Tests de la couche Service dans main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value=". Tests de la couche Service dans main.py" />
+    <MESSAGE value="Création de la fenêtre principale ViewSalle" />
+    <MESSAGE value="Ajout du cadre informations salle (labels et champs)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout du cadre informations salle (labels et champs)" />
   </component>
 </project>

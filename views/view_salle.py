@@ -59,3 +59,38 @@ class ViewSalle(ctk.CTk):
 
         resultat, message = self.service_salle.ajouter_salle(salle)
         print(message)
+
+    def modifier_salle(self):
+        code = self.entry_code.get()
+        libelle = self.entry_libelle.get()
+        type_s = self.entry_type.get()
+        capacite = int(self.entry_cap.get())
+
+        from models.salle import Salle
+        salle = Salle(code, libelle, type_s, capacite)
+
+        resultat, message = self.service_salle.modifier_salle(salle)
+        print(message)
+
+    def supprimer_salle(self):
+        code = self.entry_code.get()
+        self.service_salle.supprimer_salle(code)
+        print("Salle supprimée")
+
+    def rechercher_salle(self):
+        code = self.entry_code.get()
+        salle = self.service_salle.rechercher_salle(code)
+
+        if salle:
+            self.entry_libelle.delete(0, "end")
+            self.entry_libelle.insert(0, salle.libelle)
+
+            self.entry_type.delete(0, "end")
+            self.entry_type.insert(0, salle.type)
+
+            self.entry_cap.delete(0, "end")
+            self.entry_cap.insert(0, salle.capacite)
+
+            self.btn_modifier.configure(command=self.modifier_salle)
+            self.btn_supprimer.configure(command=self.supprimer_salle)
+            self.btn_rechercher.configure(command=self.rechercher_salle)

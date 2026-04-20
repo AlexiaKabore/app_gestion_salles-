@@ -1,6 +1,6 @@
 import customtkinter as ctk
 from services.service_salle import ServiceSalle
-
+from tkinter import ttk
 class ViewSalle(ctk.CTk):
 
     def __init__(self):

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Ajout méthode lister_salles pour affichage dynamique">
-      <change beforePath="$PROJECT_DIR$/views/view_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/view_salle.py" afterDir="false" />
-    </list>
+    <list default="true" id="3aff10cd-b64e-4804-bd07-da777b5029d3" name="Changes" comment="Mise à jour automatique de la liste des salles" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,11 +292,18 @@
       <option name="project" value="LOCAL" />
       <updated>1776654899375</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Mise à jour automatique de la liste des salles">
+      <option name="closed" value="true" />
+      <created>1776655144954</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1776655144954</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Correction README avec bonne description" />
     <MESSAGE value="Création de l'architecture en couches du projet" />
     <MESSAGE value="Installation des dépendances MySQL et customTkinter" />
     <MESSAGE value="Création de la classe Salle dans la couche modèle" />
@@ -323,6 +328,7 @@
     <MESSAGE value="Ajout import ttk pour affichage liste" />
     <MESSAGE value="Ajout du tableau Treeview pour afficher les salles" />
     <MESSAGE value="Ajout méthode lister_salles pour affichage dynamique" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout méthode lister_salles pour affichage dynamique" />
+    <MESSAGE value="Mise à jour automatique de la liste des salles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise à jour automatique de la liste des salles" />
   </component>
 </project>
